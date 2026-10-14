@@ -1,17 +1,120 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dulce Bonao</title>
+<html lang="es" class="html">
+<head class="head">
+  <meta class="meta" charset="UTF-8">
+  <meta class="meta" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Dulce Bonao</title>
 </head>
-<body>
-    <header>
-    <h1>Dulce Bonao</h1>
-      </header>
-    <main>
-        <h2>Bienvenidos a Dulce Bonao</h2>
-        <p>El sabor de lo hecho con amor</p>
-    </main>
+<body class="body inicio">
+  <header class="header cabecera">
+    <a class="link cabecera-logo" href="index.html">
+      <img class="img logo-img" src="logo.png" alt="Logo de Dulce Bonao">
+      <span class="span logo-texto">Dulce Bonao</span>
+    </a>
+    <nav class="nav menu">
+      <a class="link menu-item nav-activo" href="index.html">Inicio</a>
+      <a class="link menu-item" href="catalogo.html">Catálogo</a>
+      <a class="link menu-item" href="tamano-precios.html">Tamaño y precios</a>
+      <a class="link menu-item" href="sabores-rellenos.html">Sabores y rellenos</a>
+      <a class="link menu-item" href="pedir-bizcocho.html">Pedir bizcocho</a>
+      <a class="link menu-item" href="contacto.html">Contacto</a>
+      <a class="link menu-icono" href="#">🔍</a>
+      <a class="link menu-icono" href="#">🛒</a>
+    </nav>
+  </header>
+
+  <main class="main inicio-main">
+    <section class="section hero">
+      <div class="div hero-textos">
+        <h1 class="h1 hero-titulo">El sabor de lo hecho con amor</h1>
+        <p class="p hero-texto">Bizcochos artesanales para cada momento especial.</p>
+        <a class="link btn-principal" href="catalogo.html">Ver Catálogo</a>
+      </div>
+      <img class="img hero-img" src="hero.png" alt="Bizcocho artesanal">
+    </section>
+
+    <section class="section sabores-pedidos">
+      <h2 class="h2 seccion-titulo">Nuestros sabores más pedidos</h2>
+      <div class="div tarjetas">
+        <article class="article tarjeta">
+          <img class="img tarjeta-img" src="bizcocho1.png" alt="Bizcocho">
+          <h3 class="h3 tarjeta-nombre">Nombre del bizcocho</h3>
+          <p class="p tarjeta-descripcion">Descripción breve del sabor o relleno.</p>
+          <a class="link btn-secundario" href="catalogo.html">Ver más</a>
+        </article>
+        <article class="article tarjeta">
+          <img class="img tarjeta-img" src="bizcocho2.png" alt="Bizcocho">
+          <h3 class="h3 tarjeta-nombre">Nombre del bizcocho</h3>
+          <p class="p tarjeta-descripcion">Descripción breve del sabor o relleno.</p>
+          <a class="link btn-secundario" href="catalogo.html">Ver más</a>
+        </article>
+        <article class="article tarjeta">
+          <img class="img tarjeta-img" src="bizcocho3.png" alt="Bizcocho">
+          <h3 class="h3 tarjeta-nombre">Nombre del bizcocho</h3>
+          <p class="p tarjeta-descripcion">Descripción breve del sabor o relleno.</p>
+          <a class="link btn-secundario" href="catalogo.html">Ver más</a>
+        </article>
+        <article class="article tarjeta">
+          <img class="img tarjeta-img" src="bizcocho4.png" alt="Bizcocho">
+          <h3 class="h3 tarjeta-nombre">Nombre del bizcocho</h3>
+          <p class="p tarjeta-descripcion">Descripción breve del sabor o relleno.</p>
+          <a class="link btn-secundario" href="catalogo.html">Ver más</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section personaliza">
+      <img class="img personaliza-icono" src="icono-bizcocho.png" alt="Icono de bizcocho">
+      <div class="div personaliza-textos">
+        <h2 class="h2 personaliza-titulo">Personaliza tu bizcocho</h2>
+        <p class="p personaliza-texto">Elige el tamaño, sabor y relleno que más te guste.</p>
+        <a class="link btn-secundario" href="pedir-bizcocho.html">Pedir ahora</a>
+      </div>
+      <img class="img personaliza-img" src="personaliza.png" alt="Bizcocho personalizado">
+    </section>
+
+    <section class="section ventajas">
+      <div class="div ventaja">
+        <span class="span ventaja-icono">🏅</span>
+        <h3 class="h3 ventaja-titulo">Ingredientes de calidad</h3>
+        <p class="p ventaja-texto">Usamos solo los mejores ingredientes.</p>
+      </div>
+      <div class="div ventaja">
+        <span class="span ventaja-icono">♡</span>
+        <h3 class="h3 ventaja-titulo">Hecho con amor</h3>
+        <p class="p ventaja-texto">Cada bizcocho es preparado con dedicación.</p>
+      </div>
+      <div class="div ventaja">
+        <span class="span ventaja-icono">🚚</span>
+        <h3 class="h3 ventaja-titulo">Entregas a domicilio</h3>
+        <p class="p ventaja-texto">Llevamos la dulzura a tu puerta.</p>
+      </div>
+      <div class="div ventaja">
+        <span class="span ventaja-icono">☆</span>
+        <h3 class="h3 ventaja-titulo">Clientes felices</h3>
+        <p class="p ventaja-texto">Tu satisfacción es nuestra prioridad.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer pie">
+    <div class="div pie-marca">
+      <img class="img logo-img" src="logo.png" alt="Logo de Dulce Bonao">
+      <div class="div pie-textos">
+        <strong class="strong pie-nombre">Dulce Bonao</strong>
+        <p class="p pie-slogan">Bizcochos que endulzan la vida</p>
+      </div>
+    </div>
+    <nav class="nav pie-enlaces">
+      <span class="span pie-titulo">Enlaces</span>
+      <a class="link pie-link" href="index.html">Inicio</a>
+      <a class="link pie-link" href="catalogo.html">Catálogo</a>
+      <a class="link pie-link" href="contacto.html">Contacto</a>
+    </nav>
+    <div class="div pie-redes">
+      <a class="link red-link" href="#">Instagram</a>
+      <a class="link red-link" href="#">Facebook</a>
+    </div>
+  </footer>
 </body>
 </html>
